@@ -1,0 +1,15 @@
+{
+  "name": "examen-advanced-frontend-opdrachten",
+  "version": "1.0.0",
+  "description": "- Maak een eigen **private** repository aan op GitHub met de naam `examen-advanced-frontend` - Clone deze eigen repository naar je lokale machine - Clone de repo van de docent naar je lokale machine - Kopieer alles (behalve de `.git`-map) van de docent repo naar je eigen repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "tsc index.ts --outDir transpiled && node transpiled/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
