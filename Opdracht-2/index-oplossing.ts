@@ -23,7 +23,7 @@ zegHallo("John Duck"); // Hallo John Duck!
 console.log(optellen(1, 2, 3)); // 6
 vermenigvuldigen(1, 2, 3);
 
-console.log('\n'); // Dit print een 'enter' - een lege regel
+console.log("\n"); // Dit print een 'enter' - een lege regel
 
 interface Pokemon {
   name: string;
@@ -75,7 +75,7 @@ pokemon.push(bulbasaur);
 pokemon.push(charmander);
 pokemon.push(squirtle);
 
-const printPokemon = (pokemon: Pokemon): void => {
+const printPokemon = (pokemon: Array<Pokemon>): void => {
   pokemon.forEach((pokemon) => {
     console.log(`Name: ${pokemon.name}`);
     console.log(`Type: ${pokemon.type}`);
@@ -86,7 +86,7 @@ const printPokemon = (pokemon: Pokemon): void => {
     console.log(`Special Defense: ${pokemon.specialDefense}`);
     console.log(`Speed: ${pokemon.speed}`);
     console.log(`\n`);
-  })
-}
+  });
+};
 
 printPokemon(pokemon);
