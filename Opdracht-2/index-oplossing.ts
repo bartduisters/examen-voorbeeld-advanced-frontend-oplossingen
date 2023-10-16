@@ -14,7 +14,7 @@ function optellen(a: number, b: number, c: number): number {
 
 // Instinker - goed opletten!
 function vermenigvuldigen(a: number, b: number, c: number): void {
-  const result = a * b * c;
+  a * b * c;
 }
 
 console.log(doei("John Duck")); // Doei John Duck!
